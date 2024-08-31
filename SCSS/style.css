@@ -84,8 +84,6 @@ img {
 }
 .header h5 {
   font-weight: bold;
-  margin-bottom: 0px;
-  color: #ff5e00;
 }
 .header .material-symbols-outlined {
   display: none;
@@ -98,14 +96,11 @@ img {
 }
 .menu a {
   align-items: center;
-  color: rgb(93, 93, 93);
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
   padding: 12px 24px;
-}
-.menu a:hover {
-  color: black;
+  color: rgb(93, 93, 93);
 }
 
 .overlay {
@@ -134,9 +129,6 @@ img {
   text-decoration: none;
   font-size: 18px;
   color: rgb(93, 93, 93);
-}
-.overlay a:hover {
-  color: black;
 }
 .overlay .material-symbols-outlined {
   position: absolute;
@@ -280,7 +272,7 @@ img {
 }
 .content .ux_system {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 70px;
 }
 .content .ux_system .content_section h3 {
@@ -363,13 +355,14 @@ img {
   font-weight: bold;
 }
 
+.visualdesign {
+  text-align: center;
+}
 .visualdesign .vd_project {
-  display: flex;
-  align-items: center;
+  margin-bottom: 60px;
 }
 .visualdesign .vd_project img {
   max-width: 50%;
-  padding: 40px;
 }
 .visualdesign .vd_project h2 {
   font-weight: bold;
@@ -389,6 +382,9 @@ img {
 }
 .intro .left .about_section {
   margin-bottom: 16px;
+}
+.intro .left h2 {
+  color: #ff5e00;
 }
 .intro .right {
   max-width: 40%;
@@ -416,6 +412,7 @@ img {
 }
 .info_group .info h2 {
   font-weight: bold;
+  color: #ff5e00;
 }
 .info_group .info a {
   text-decoration: none;
@@ -525,6 +522,5 @@ img {
   }
   .visualdesign .vd_project img {
     max-width: 100%;
-    padding: 20px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -76,8 +76,6 @@ img{
 	}
 	h5{
 		font-weight: bold;
-		margin-bottom: 0px;
-		color:#ff5e00;
 	}
 	.material-symbols-outlined{
 		display: none;
@@ -89,14 +87,11 @@ img{
 	gap: 36px;
 	a{
 		align-items: center;
-		color: rgb(93, 93, 93);
 		text-decoration: none;
 		font-size: 18px;
 		font-weight: bold;
 		padding: 12px 24px;
-	}
-	a:hover{
-		color: black;
+		color: rgb(93, 93, 93);
 	}
 } 
 
@@ -125,9 +120,6 @@ img{
 		text-decoration: none;
 		font-size: 18px;
 		color: rgb(93, 93, 93);
-	}
-	a:hover{
-		color: black;
 	}
 	.material-symbols-outlined{
 		position: absolute;
@@ -274,7 +266,7 @@ img{
 	}
 	.ux_system{
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-between;
 		gap: 70px;
 		.content_section{
 			h3{
@@ -364,17 +356,15 @@ img{
 	}
 }
 .visualdesign{
+	text-align: center;
 	.vd_project{
-		display: flex;
-		align-items: center;
+		margin-bottom: 60px;
 		img{ 
 			max-width: 50%;
-			padding: 40px;
 		}
 		h2{
 			font-weight: bold;
 		}
-
 	}
 }
 .intro{
@@ -389,6 +379,9 @@ img{
 		max-width: 50%;
 		.about_section{
 			margin-bottom: 16px;
+		}
+		h2{
+			color: #ff5e00;
 		}
 	
 	}
@@ -414,6 +407,7 @@ img{
 	.info{
 		h2{
 			font-weight: bold;
+			color: #ff5e00;
 		}
 		a{
 			text-decoration: none;
@@ -530,7 +524,6 @@ img{
 			text-align: center;
 			img{ 
 				max-width: 100%;
-				padding: 20px;
 			}
 		}
 	}
