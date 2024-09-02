@@ -356,16 +356,18 @@ img {
 }
 
 .visualdesign {
+  display: flex;
+  justify-content: space-between;
   text-align: center;
 }
 .visualdesign .vd_project {
-  margin-bottom: 60px;
+  max-width: 30%;
 }
 .visualdesign .vd_project img {
-  max-width: 50%;
+  display: block;
 }
 .visualdesign .vd_project h2 {
-  font-weight: bold;
+  padding: 20px 0px 5px;
 }
 
 .intro {
@@ -516,11 +518,10 @@ img {
   .info_group .info img {
     max-width: 10%;
   }
-  .visualdesign .vd_project {
+  .visualdesign {
     flex-direction: column;
-    text-align: center;
   }
-  .visualdesign .vd_project img {
+  .visualdesign .vd_project {
     max-width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
