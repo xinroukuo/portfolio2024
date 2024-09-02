@@ -366,8 +366,8 @@ img {
 .visualdesign .vd_project img {
   display: block;
 }
-.visualdesign .vd_project h2 {
-  padding: 20px 0px 5px;
+.visualdesign .vd_project h3 {
+  padding: 30px 0px 10px;
 }
 
 .intro {
