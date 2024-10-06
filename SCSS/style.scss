@@ -92,6 +92,9 @@ img{
 		font-weight: bold;
 		padding: 12px 24px;
 		color: rgb(93, 93, 93);
+		.current{
+			color: #000000;
+		}
 	}
 } 
 
@@ -333,7 +336,7 @@ img{
 		padding: 100px 0px 30px;
 	}
 	p{
-		font-size: 48px;
+		font-size: 36px;
 		font-weight: bold;
 		text-align: center;
 	}
@@ -363,6 +366,7 @@ img{
 		max-width: 30%;
 		img{
 			display: block;
+			margin-bottom: 24px;
 		}
 		h3{
 			padding: 30px 0px 10px;
